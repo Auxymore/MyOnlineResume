@@ -1,0 +1,224 @@
+html, 
+body {
+    color: #40514E;
+    margin: 0;
+    font-family: 'Lora', sans-serif;  
+  }
+  h1  {
+    font-family: "Raleway", sans-serif;
+    font-size: 5rem;
+    color: white;
+    text-align: center; 
+  }
+  h2 {
+    font-family: "Raleway-bold", sans-serif;
+    color: #616161;
+    text-align: center;
+  } 
+  h3 {
+    font-family: "Raleway", serif;
+    color: #9d8f8f;
+    text-align: center;
+    font-weight: bold;
+  }
+  p{
+    line-height: 18pt;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    color: #585858;
+  }
+  
+
+/* Header Style */
+
+  .top-container {
+  position: relative;
+  text-align: center;
+  background-color: #F2E9D0;
+  color:white;
+  padding: 250px 0;
+  background-image: url("https://images.unsplash.com/photo-1532680678473-a16f2cda8e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80")
+  }
+  .body-h2{
+  color: white;
+  margin: 50px auto;
+  }
+  .dev{
+  text-decoration: underline;
+  }
+  a.brk-btn:link{
+  font-family: "Raleway", sans-serif;
+  color:white;
+  }
+  a.brk-btn:hover{
+  color:white;
+  font-weight: bold;
+  }
+   .brk-btn {
+  position: relative;
+  text-transform: uppercase;
+  margin: 0 auto;
+  background: none;
+  color: white;
+  text-decoration: none;
+  border: 0.2em solid white;
+  padding: 0.5em 1em;
+   }
+   .brk-btn:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10%;
+    background: #222;
+    height: 0.3em;
+    right: 20%;
+    top: -0.21em;
+    transform: skewX(-45deg);
+    -webkit-transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+    }
+     .brk-btn:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10%;
+    background: #222;
+    height: 0.3em;
+    left: 20%;
+    bottom: -0.25em;
+    transform: skewX(45deg);
+    -webkit-transition: all 0.45 cubic-bezier(0.86, 0, 0.07, 1);
+    transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+     }
+       .brk-btn:hover:before{
+      right: 80%;
+       }
+       .brk-btn:hover::after{
+      left: 80%;
+       }
+
+
+/* Info Style */
+
+  hr.solid {
+  border-top: 3px solid #616161;;
+  width: 5%;
+  }
+
+  /* About Me section */
+  .profile{
+    padding: 12px 50px;
+    background-color:#f1f1f1;
+  }
+  .profpic {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin: 25px 0px 25px 
+  }
+  .intro{
+    width: 30%;
+    margin: 30px auto;
+  }
+
+  /* Skill section */
+  .middle-container {
+    background-color: white;
+  }
+  .my-skill {
+  padding-top:25px;
+  }
+  .skill-row{
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 2;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: unset;
+  }
+  .skilltech-row{
+    width: 60%;
+    margin: 0 auto;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: unset;
+  }
+  .skill {
+    padding:25px;
+  }
+  .skill-pic{
+    width: 18%;
+    margin: 10px 10px 20px;
+    text-align: center;
+  }
+  
+  .skill-React{
+    width: 35%;
+  }
+  .soft-skill-img {
+    width: 20%;
+    float: left;
+    margin: 0 30px 15px 0;
+  }
+
+  /* Contact-Me section */
+  .contact-message{
+    width: 30%;
+    margin: 20px auto 20px;
+  }
+  .contact-me {
+    padding:10px 50px ;
+    background-color:#f1f1f1;
+  }
+  .contact-me h3{
+    color: #f1935c;
+  }
+
+
+/* Footer Style */
+
+  .bottom-container {
+    background-color:black;
+    padding: 12px 0;
+    color: #EAF6F6;
+  }
+  .copyright{
+    padding: 20px 0;
+    font-size: 0.75rem;
+    color:white;
+  }
+  .icon-social{
+    color: #f1935c;
+    margin: 10px;
+  }
+  .icon-social:hover{
+    color: #EAF6F6;
+  }
+  
+  
+
+ 
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+ 
+  
+  
+  
+  
+
+  
+  
+    
+  
+  
+  
