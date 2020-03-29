@@ -106,6 +106,7 @@ body {
   }
 
   /* About Me section */
+
   .profile{
     padding: 12px 50px;
     background-color:#f1f1f1;
@@ -117,12 +118,20 @@ body {
     text-align: center;
     margin: 25px 0px 25px 
   }
-  .intro{
-    width: 30%;
-    margin: 30px auto;
-  }
 
+  .intro{
+    width: 42%;
+    margin: 10px auto;
+  }
+  @media screen and (max-width: 576px){  
+    .intro{
+      width: 100%;
+      margin: 10px auto;
+    }
+  }
+ 
   /* Skill section */
+
   .middle-container {
     background-color: white;
   }
@@ -138,6 +147,7 @@ body {
   animation-delay: 2s;
   animation-iteration-count: unset;
   }
+
   .skilltech-row{
     width: 60%;
     margin: 0 auto;
@@ -149,18 +159,52 @@ body {
     padding:25px;
   }
   .skill-pic{
-    width: 18%;
+    width: 15%;
     margin: 10px 10px 20px;
     text-align: center;
   }
   
   .skill-React{
-    width: 35%;
+    width: 30%;
   }
   .soft-skill-img {
     width: 20%;
     float: left;
     margin: 0 30px 15px 0;
+  }
+
+  @media screen and (max-width: 576px){
+
+    .skill-row{
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+      line-height: 1;
+      animation-duration: 3s;
+      animation-delay: 2s;
+      animation-iteration-count: unset;
+      }
+    
+      .skilltech-row{
+        width: 100%;
+        margin: 0 auto;
+        animation-duration: 3s;
+        animation-delay: 2s;
+        animation-iteration-count: unset;
+      }
+
+      .skill-pic{
+        width: 15%;
+        margin: 10px 10px 20px;
+        text-align: center;
+      }
+
+      .soft-skill-img {
+        width: 22%;
+        float: left;
+        margin: 0 15px 15px 0;
+      }
+    
   }
 
   /* Contact-Me section */

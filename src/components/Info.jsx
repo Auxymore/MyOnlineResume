@@ -12,7 +12,7 @@ function Info (props){
     setMouseOver(false);
   }
     return(
-    <div class=" middle-container">
+    <div class="middle-container">
       <div class="profile" 
            onMouseEnter={handleMouseEnter} 
            onMouseLeave={handleMouseLeave}
@@ -53,12 +53,7 @@ function Info (props){
                     <img class="skill-pic" src="./images/Skills_tech/jquery.png" alt="jQuery-img"/>
                     <img class="skill-pic" src="./images/Skills_tech/nodejs.png" alt="NodeJs-img"/>
                   </div>
-
-                  <div class="text-center skilltech-row">
-                    <h3 class="font-weight-bold">Build Tools</h3>
-                    <img class="skill-pic" src="./images/Skills_tech/webpack.png" alt="Webpack-img"/>
-                  </div>
-
+    
                   <div class="text-center skilltech-row">
                     <h3 class="font-weight-bold">Other</h3>
                     <img class="skill-pic" src="./images/Skills_tech/github.png" alt="Github-img"/>
