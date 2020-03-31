@@ -5,8 +5,8 @@ body {
     font-family: 'Lora', sans-serif;  
   }
   h1  {
-    font-family: "Raleway", sans-serif;
-    font-size: 5rem;
+    font-family: "Raleway-bold", sans-serif;
+    font-size: 5.5rem;
     color: white;
     text-align: center; 
   }
@@ -17,6 +17,7 @@ body {
   } 
   h3 {
     font-family: "Raleway", serif;
+    font-weight: 800;
     color: #9d8f8f;
     text-align: center;
     font-weight: bold;
@@ -46,8 +47,11 @@ body {
   .dev{
   text-decoration: underline;
   }
+  p.intro {
+    font-weight: 200px;
+    
+  }
   a.brk-btn:link{
-  font-family: "Raleway", sans-serif;
   color:white;
   }
   a.brk-btn:hover{
@@ -97,6 +101,11 @@ body {
       left: 80%;
        }
 
+@media screen and (max-width: 400px){  
+  .top-container{
+  padding: 14.6875rem 0;
+    }
+  }
 
 /* Info Style */
 
@@ -123,7 +132,7 @@ body {
     width: 42%;
     margin: 10px auto;
   }
-  @media screen and (max-width: 576px){  
+  @media screen and (max-width: 400px){  
     .intro{
       width: 100%;
       margin: 10px auto;
@@ -139,7 +148,7 @@ body {
   padding-top:25px;
   }
   .skill-row{
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
   text-align: left;
   line-height: 2;
@@ -149,48 +158,43 @@ body {
   }
 
   .skilltech-row{
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     animation-duration: 3s;
     animation-delay: 2s;
     animation-iteration-count: unset;
   }
+  .soft-skill-img {
+    width: 80px;
+    float: left;
+    margin: 0 17px 5px 0;
+  }
   .skill {
     padding:25px;
   }
   .skill-pic{
-    width: 15%;
+    width: 50px;
     margin: 10px 10px 20px;
     text-align: center;
   }
   
   .skill-React{
-    width: 30%;
+    width: 90px;
   }
-  .soft-skill-img {
-    width: 20%;
-    float: left;
-    margin: 0 30px 15px 0;
-  }
+  
 
-  @media screen and (max-width: 576px){
+  @media screen and (max-width: 400px){
 
     .skill-row{
       width: 90%;
       margin: 0 auto;
       text-align: center;
       line-height: 1;
-      animation-duration: 3s;
-      animation-delay: 2s;
-      animation-iteration-count: unset;
       }
     
       .skilltech-row{
         width: 100%;
         margin: 0 auto;
-        animation-duration: 3s;
-        animation-delay: 2s;
-        animation-iteration-count: unset;
       }
 
       .skill-pic{
@@ -202,16 +206,18 @@ body {
       .soft-skill-img {
         width: 22%;
         float: left;
-        margin: 0 15px 15px 0;
+        margin: 0 15px 5px 0;
       }
     
   }
 
   /* Contact-Me section */
+
   .contact-message{
-    width: 30%;
+    width: 40%;
     margin: 20px auto 20px;
   }
+
   .contact-me {
     padding:10px 50px ;
     background-color:#f1f1f1;
@@ -219,7 +225,13 @@ body {
   .contact-me h3{
     color: #f1935c;
   }
-
+  
+  @media screen and (max-width: 400px){
+    .contact-message{
+      width: 100%;
+      margin: 10px auto 10px;
+    }
+  }
 
 /* Footer Style */
 
@@ -239,6 +251,15 @@ body {
   }
   .icon-social:hover{
     color: #EAF6F6;
+  }
+
+  @media screen and (max-width: 400px){
+    .icon-social{
+      color: #f1935c;
+      margin: 25px;
+      width: 50%;
+    }
+
   }
   
   
