@@ -37,27 +37,27 @@ function Info (props){
                <div class="col skill animated fadeInRightBig delay-2s">
                   <div class="text-center  skilltech-row">
                     <h3 class="font-weight-bold">HTML</h3>
-                    <img class="skill-pic" src="./images/Skills_tech/html5.svg" alt="HTML 5-img"/>
-                    <img class="skill-React" src="./images/Skills_tech/1280px-React-icon.svg.png" alt="JSX-img"/>
+                    <img class="skill-pic" src="./images/Skills_Tech/html5.svg" alt="HTML 5-img"/>
+                    <img class="skill-React" src="./images/Skills_Tech/1280px-React-icon.svg.png" alt="JSX-img"/>
                   </div>
 
                   <div class="text-center skilltech-row">
                     <h3 class="font-weight-bold">CSS</h3>
-                    <img class="skill-pic" src="./images/Skills_tech/css.svg" alt="CSS3-img"/>
+                    <img class="skill-pic" src="./images/Skills_Tech/css.svg" alt="CSS3-img"/>
                   </div>
 
                   <div class="text-center skilltech-row">
                     <h3 class="font-weight-bold">Javascript</h3>
-                    <img class="skill-pic" src="./images/Skills_tech/javascript.png" alt="JS-img"/>
-                    <img class="skill-React" src="./images/Skills_tech/1280px-React-icon.svg.png" alt="React-img"/>
-                    <img class="skill-pic" src="./images/Skills_tech/jquery.png" alt="jQuery-img"/>
-                    <img class="skill-pic" src="./images/Skills_tech/nodejs.png" alt="NodeJs-img"/>
+                    <img class="skill-pic" src="./images/Skills_Tech/javascript.png" alt="JS-img"/>
+                    <img class="skill-React" src="./images/Skills_Tech/1280px-React-icon.svg.png" alt="React-img"/>
+                    <img class="skill-pic" src="./images/Skills_Tech/jquery.png" alt="jQuery-img"/>
+                    <img class="skill-pic" src="./images/Skills_Tech/nodejs.png" alt="NodeJs-img"/>
                   </div>
-    
+
                   <div class="text-center skilltech-row">
                     <h3 class="font-weight-bold">Other</h3>
-                    <img class="skill-pic" src="./images/Skills_tech/github.png" alt="Github-img"/>
-                    <img class="skill-pic" src="./images/Skills_tech/heroku.png" alt="Heroku-img"/>
+                    <img class="skill-pic" src="./images/Skills_Tech/github.png" alt="Github-img"/>
+                    <img class="skill-pic" src="./images/Skills_Tech/heroku.png" alt="Heroku-img"/>
                   </div>
                </div>
               </div>
